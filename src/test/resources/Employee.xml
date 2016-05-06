@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<department DEPT_NUMBER="1" DEPT_NAME="Software Engineering" />
+
+    <employee EMP_NUMBER="11111" FIRST_NAME="Mickey" MIDDLE_NAME="Cat" LAST_NAME="Mouse" PASSWORD="abc123" EMAIL="mickey@mouse.com"  DEPARTMENT_DEPT_NUMBER="1" />
+    <employee EMP_NUMBER="2" FIRST_NAME="Minnie" MIDDLE_NAME="Cat" LAST_NAME="Mouse" PASSWORD="abc123" EMAIL="minnie@mouse.com"  DEPARTMENT_DEPT_NUMBER="1" />
+</dataset>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="334" started-at="2015-12-16T04:31:23Z" finished-at="2015-12-16T04:31:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="334" started-at="2015-12-16T04:31:23Z" finished-at="2015-12-16T04:31:24Z">
+      <class name="com.javahris.springmvc.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="setUp" is-config="true" duration-ms="254" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="changePassword()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="changePassword" duration-ms="29" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="deleteEmployee" duration-ms="3" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="editEmployee" duration-ms="1" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="PASS" signature="employeeInfoDiffUser()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="employeeInfoDiffUser" duration-ms="2" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeInfoDiffUser -->
+        <test-method status="PASS" signature="employeeInfoSameUser()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="employeeInfoSameUser" duration-ms="1" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeInfoSameUser -->
+        <test-method status="PASS" signature="employeeProfile()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="employeeProfile" duration-ms="8" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeeProfile -->
+        <test-method status="PASS" signature="listEmployees()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="listEmployees" duration-ms="5" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listEmployees -->
+        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="newEmployee" duration-ms="0" started-at="2015-12-16T13:31:23Z" finished-at="2015-12-16T13:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployee -->
+        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="saveEmployeeWithSuccess" duration-ms="2" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithSuccess -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="saveEmployeeWithValidationError" duration-ms="1" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationError -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueEmail()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="saveEmployeeWithValidationErrorNonUniqueEmail" duration-ms="2" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationErrorNonUniqueEmail -->
+        <test-method status="PASS" signature="savePasswordCorrectOldPass()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="savePasswordCorrectOldPass" duration-ms="2" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePasswordCorrectOldPass -->
+        <test-method status="PASS" signature="savePasswordWrongOldPass()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="savePasswordWrongOldPass" duration-ms="1" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savePasswordWrongOldPass -->
+        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="updateEmployeeWithSuccess" duration-ms="1" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithSuccess -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="updateEmployeeWithValidationError" duration-ms="1" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationError -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.javahris.springmvc.controller.AppControllerTest@43a25848]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2015-12-16T13:31:24Z" finished-at="2015-12-16T13:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.javahris.springmvc.controller.AppControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
